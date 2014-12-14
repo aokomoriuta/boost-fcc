@@ -90,3 +90,6 @@
 
 # Configure specific Python version.
 # using python : 3.1 : /usr/bin/python3 : /usr/include/python3.1 : /usr/lib ;
+
+using gcc : : mpiFCCpx : <compileflags>-Xg <linkflags>-Xg ;
+using mpi : mpiFCCpx ;

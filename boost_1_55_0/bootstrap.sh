@@ -57,7 +57,7 @@ do
       BJAM=`expr "x$option" : "x-*with-bjam=\(.*\)"`
       ;;
 
-    -with-icu | --with-icu )
+    w-with-icu | --with-icu )
       flag_icu=yes
       ;;
 
